@@ -1,0 +1,1 @@
+import{j as i}from"./index-Buf_BSxb.js";import{m as e}from"./motion-Bhnmr-Kv.js";function n(){return i.jsxs(e.div,{className:"page",initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},children:[i.jsx("h1",{children:"Home"}),i.jsx("p",{children:"This is the BusinessIntelligence page."})]})}export{n as default};

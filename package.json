@@ -2,10 +2,13 @@
   "name": "intellisync-react",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://Alphadoane.github.io/intellisync-ioa",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "framer-motion": "^10.16.4",

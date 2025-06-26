@@ -1,6 +1,6 @@
 /* Page Background Image */
 body {
-  background-image: url('../images/intellisupport.jpg'); /* ✅ Replace with actual path */
+  background-image: url('/images/intellisupport.jpg'); /* ✅ Fixed path for public folder */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

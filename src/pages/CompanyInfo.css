@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   padding: 4rem 2rem;
-  background-image: url('../images/intelli0104.jpg'); /* ✅ Ensure correct path */
+  background-image: url('/images/intelli0104.jpg'); /* ✅ Fixed path for public folder */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

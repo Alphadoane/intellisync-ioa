@@ -1,0 +1,1 @@
+import{j as t}from"./index-DETh0iG9.js";import{m as i}from"./motion-CzEdocMk.js";function e(){return t.jsxs(i.div,{className:"page",initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},children:[t.jsx("h1",{children:"Home"}),t.jsx("p",{children:"This is the DataAutomation page."})]})}export{e as default};

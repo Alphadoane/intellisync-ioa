@@ -1,4 +1,4 @@
-import{j as e}from"./index-Buf_BSxb.js";const i=()=>{const s={title:"10 Tips for Better Website Performance in 2025",content:`
+import{j as e}from"./index-DETh0iG9.js";const i=()=>{const s={title:"10 Tips for Better Website Performance in 2025",content:`
       <h2>Introduction</h2>
       <p>Website performance is crucial for user experience and SEO. In this post, we'll explore ten actionable tips to speed up your website.</p>
       

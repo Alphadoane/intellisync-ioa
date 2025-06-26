@@ -1,0 +1,1 @@
+import{j as i}from"./index-DETh0iG9.js";import{m as t}from"./motion-CzEdocMk.js";function o(){return i.jsxs(t.div,{className:"page",initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},children:[i.jsx("h1",{children:"Home"}),i.jsx("p",{children:"This is the Integrations page."})]})}export{o as default};

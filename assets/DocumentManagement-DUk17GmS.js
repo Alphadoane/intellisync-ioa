@@ -1,0 +1,1 @@
+import{j as e}from"./index-DETh0iG9.js";import{m as t}from"./motion-CzEdocMk.js";function n(){return e.jsxs(t.div,{className:"page",initial:{opacity:0},animate:{opacity:1},exit:{opacity:0},children:[e.jsx("h1",{children:"Home"}),e.jsx("p",{children:"This is the DocumentManagement page."})]})}export{n as default};

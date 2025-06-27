@@ -62,25 +62,39 @@ npm run dev
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
-- `npm run deploy` - Deploy to GitHub Pages
 
 ## 🌐 Deployment
 
 This project is automatically deployed to GitHub Pages using GitHub Actions. Every push to the main branch triggers a new deployment.
 
-### Manual Deployment
+### Manual GitHub Pages Setup
 
-If you need to deploy manually:
+If the automatic deployment isn't working, follow these steps:
 
-1. Build the project:
-```bash
-npm run build
-```
+1. **Go to your GitHub repository**: [https://github.com/Alphadoane/intellisync-ioa](https://github.com/Alphadoane/intellisync-ioa)
 
-2. Deploy to GitHub Pages:
-```bash
-npm run deploy
-```
+2. **Navigate to Settings**:
+   - Click on the "Settings" tab in your repository
+
+3. **Scroll down to "Pages" section**:
+   - In the left sidebar, click on "Pages"
+
+4. **Configure GitHub Pages**:
+   - **Source**: Select "GitHub Actions"
+   - **Branch**: This will be handled by the workflow
+
+5. **Check Actions**:
+   - Go to the "Actions" tab to see if the workflow is running
+   - Look for any error messages in the workflow logs
+
+### Troubleshooting
+
+If you're getting a 404 error:
+
+1. **Check GitHub Actions**: Go to Actions tab and see if the workflow completed successfully
+2. **Check Pages Settings**: Ensure GitHub Pages is enabled in repository settings
+3. **Wait for Deployment**: GitHub Pages can take 5-10 minutes to update after a successful deployment
+4. **Clear Browser Cache**: Try accessing the site in an incognito window
 
 ## 🎨 Features
 

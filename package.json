@@ -5,7 +5,8 @@
   "homepage": "https://Alphadoane.github.io/intellisync-ioa",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run prebuild && vite build",
+    "prebuild": "node scripts/check-imports.js",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"

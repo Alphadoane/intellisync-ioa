@@ -15,7 +15,7 @@ permissions:
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build-and-deploy:
@@ -43,12 +43,20 @@ jobs:
     - name: Setup Pages
       uses: actions/configure-pages@v4
       
+    - name: Clean up existing artifacts
+      run: |
+        # Remove any existing artifacts to prevent conflicts
+        rm -rf dist/.git || true
+        
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
         path: './dist'
+        name: 'intellisync-pages'
         
     - name: Deploy to GitHub Pages
       if: github.ref == 'refs/heads/main'
       id: deployment
-      uses: actions/deploy-pages@v4 
+      uses: actions/deploy-pages@v4
+      with:
+        artifact_name: 'intellisync-pages' 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import './team.css'; // Ensure filename and import match
+import './Team.css'; // Ensure filename and import match
 
 const Team = () => {
   const CTAButton = ({ text, primary = false }) => {
